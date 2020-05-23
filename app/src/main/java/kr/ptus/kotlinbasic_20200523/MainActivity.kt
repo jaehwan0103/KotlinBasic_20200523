@@ -12,7 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         okBtn.setOnClickListener {
-            Log.d("메인화면","확인버튼눌림")
+//            Log.d("메인화면","확인버튼눌림")
+            resultTxt.text = "버튼이 눌림"
+
         }
 
     }
