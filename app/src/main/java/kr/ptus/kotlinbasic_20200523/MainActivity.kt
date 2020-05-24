@@ -13,7 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         okBtn.setOnClickListener {
 //            Log.d("메인화면","확인버튼눌림")
-            resultTxt.text = "버튼이 눌림"
+
+            val inputcontent = inputEdt.text.toString()
+
+            resultTxt.text = inputcontent
 
         }
 
